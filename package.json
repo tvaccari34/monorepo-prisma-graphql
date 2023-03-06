@@ -1,0 +1,19 @@
+{
+  "name": "dashboard",
+  "version": "1.0.0",
+  "description": "A backend dashboard application boilerplate",
+  "main": "index.js",
+  "author": "Tiago Vaccari",
+  "license": "MIT",
+  "devDependencies": {
+    "turbo": "^1.8.2"
+  },
+  "scripts":{
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "start": "node apps/api/dist/main"
+  },
+  "workspaces":[
+    "apps/*"
+  ]
+}
